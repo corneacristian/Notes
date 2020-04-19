@@ -1,2 +1,2 @@
-##people typing their password in their shell instead of the password prompt
+#people typing their password in their shell instead of the password prompt
 find . -name .bash_history -exec grep -A 1 '^passwd' {} \;
