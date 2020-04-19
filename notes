@@ -1,2 +1,8 @@
 #people typing their password in their shell instead of the password prompt
 find . -name .bash_history -exec grep -A 1 '^passwd' {} \;
+
+#search file by name pattern
+find -name "*PATTERN*" 2>/dev/null
+
+#search string
+grep -r "STRING" / 2>/dev/null
