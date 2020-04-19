@@ -6,3 +6,7 @@ find -name "*PATTERN*" 2>/dev/null
 
 #search string
 grep -r "STRING" / 2>/dev/null
+
+#check SUDO privileges/rights
+sudo -l
+
