@@ -1,5 +1,24 @@
 # Notes
 
+### Python Functions
+Files: https://www.w3schools.com/python/python_ref_file.asp <br>
+Strings: https://www.w3schools.com/python/python_ref_string.asp <br>
+Keyworks: https://www.w3schools.com/python/python_ref_keywords.asp <br>
+Random: https://www.w3schools.com/python/module_random.asp <br>
+
+
+
+
+### PHP Functions
+
+Files: https://www.w3schools.com/php/php_ref_filesystem.asp <br>
+Directories: https://www.w3schools.com/php/php_ref_directory.asp <br>
+Errors: https://www.w3schools.com/php/php_ref_error.asp <br>
+Network: https://www.w3schools.com/php/php_ref_network.asp <br>
+Misc: https://www.w3schools.com/php/php_ref_misc.asp
+
+
+
 ### PHP Jail Escape
 *With file_get_contents()*
 ```php
