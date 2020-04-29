@@ -1,5 +1,21 @@
 # Notes
 
+### Known Plaintext ZIP
+*Download pkcrack*
+```
+https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack/download1.html
+
+! Before using, it must be built from source
+```
+
+*Syntax*
+```
+./pkcrack -C encrypted.zip -c file -P plaintext.zip -p file
+```
+
+
+
+
 ### Python Functions
 Files: https://www.w3schools.com/python/python_ref_file.asp <br>
 Strings: https://www.w3schools.com/python/python_ref_string.asp <br>
