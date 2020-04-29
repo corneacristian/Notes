@@ -1,5 +1,12 @@
 # Notes
 
+
+### XPATH Dump
+```
+https://example.com/accounts.php?user=test"]/../*%00&xpath_debug=1
+```
+
+
 ### LFI Retrieve File without executing it
 ```
 https://example.com/index.php?page=php://filter/convert.base64-encode/resource=index.php
@@ -9,7 +16,6 @@ https://example.com/index.php?page=php://filter/convert.base64-encode/resource=i
 ```
 chaosreader
 ```
-
 
 ### ZIP Format Signatures
 
@@ -21,7 +27,6 @@ chaosreader
 ```
 50 4B 05 06 00
 ```
-
 
 
 ### JWT KID Value Exploitation
