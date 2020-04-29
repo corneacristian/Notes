@@ -15,6 +15,12 @@ popen("vi", "w");
 :!/bin/bash
 ```
 
+*With highlight_file()*
+```php
+highlight_file(glob("flag.txt")[0]);
+   or
+highlight_file(glob("fl*txt")[0]);
+```
 
 ### XPATH Dump
 ```
