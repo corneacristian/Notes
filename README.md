@@ -5,6 +5,10 @@
 ```php
 print file_get_contents('flag.txt');
 ```
+*With readfile()*
+```php
+echo readfile("flag.txt");
+```
 
 *With popen()*
 ```php
