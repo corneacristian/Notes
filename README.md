@@ -1,5 +1,17 @@
 # Notes
 
+### ZIP Format Signatures
+
+*HEADER*
+```
+50 4B 03 04 14
+```
+*FOOTER*
+```
+50 4B 05 06 00
+```
+
+
 
 ### JWT KID Value Exploitation
 *Sign with public file from server*
