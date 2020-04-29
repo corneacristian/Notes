@@ -1,5 +1,10 @@
 # Notes
 
+### PHP Jail Escape
+```php
+print file_get_contents('flag.txt');
+```
+
 
 ### XPATH Dump
 ```
