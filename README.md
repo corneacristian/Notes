@@ -1,10 +1,11 @@
 # Notes
 
 
-### SQL Injection Last Sequence
+### SQL Injection Little Tips
 ```-- ``` -> Linux <br>
 ```--+``` -> Windows <br>
-```%23 (#)``` -> Hash 
+```%23 (#)``` -> Hash <br>
+``` %2527 (')``` -> bypass urldecode(urldecode(htmlspecialchars(, ENT_QUOTES)));
 
 
 ### Manual UNION SQL Injection
