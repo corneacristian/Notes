@@ -1,5 +1,15 @@
 # Notes
 
+### Extract domain names & hosts from PCAP
+*Domain Names*
+```
+tshark -r *PCAP* -Y 'dns' -T fields -e dns.qry.name | sort -u > dns.txt
+```
+*Hosts*
+```
+tshark -r *PCAP* -Y 'tls.handshake.extensions_server_name' -T fields -e tls.handshake.extensions_server_name | sort -u > hosts.txt
+```
+
 
 ### Manual UNION SQLite Injection
 *Table*
