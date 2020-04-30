@@ -1,5 +1,25 @@
 # Notes
 
+### Get data, process and respond over a socket
+```python
+import socket
+import re
+
+
+clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+clientsocket.connect(('IP', PORT))
+data = clientsocket.recv(1024)
+print data
+result = re.sub('[^0-9]', '', data) #Retrieve the digits (or numbers) only from input
+print result
+clientsocket.send(str(result))
+data = clientsocket.recv(1024)
+print data
+
+```
+
+
+
 ### Extract domain names & hosts from PCAP
 *Domain Names*
 ```
