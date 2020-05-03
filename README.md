@@ -1,5 +1,10 @@
 # Notes
 
+### Predict encoding type
+```
+https://gchq.github.io/CyberChef/#recipe=Magic(3,false,false,'')
+```
+
 ### Get data, process and respond over a socket
 ```python
 import socket
