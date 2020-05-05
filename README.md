@@ -1,5 +1,10 @@
 # Notes
 
+### Decode Rubber Ducky USB .bin payloads
+```
+https://ducktoolkit.com/decode#
+```
+
 ### Crack Android lockscreen from system files (gesture.key)
 ```
 https://github.com/KieronCraggs/GestureCrack
