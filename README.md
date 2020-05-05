@@ -1,5 +1,16 @@
 # Notes
 
+
+### Shift in Python
+
+
+```python
+with open('FILENAME') as f:
+    msg = f.read()
+    for x in range(256):
+        print ''.join([chr((ord(y) + x) % 256) for y in msg])
+```
+
 ### Predict encoding type
 ```
 https://gchq.github.io/CyberChef/#recipe=Magic(3,false,false,'')
