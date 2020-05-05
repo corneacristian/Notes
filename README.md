@@ -1,5 +1,21 @@
 # Notes
 
+### XOR Analysis
+```
+https://github.com/hellman/xortool
+```
+
+### Cryptanalysis 
+```
+https://github.com/nccgroup/featherduster
+```
+
+### RSA Cracking Tools
+```
+https://github.com/Ganapati/RsaCtfTool
+https://github.com/ius/rsatool
+```
+
 
 ### Morse Code Audio Decode
 ```
