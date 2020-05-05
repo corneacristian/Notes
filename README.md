@@ -1,6 +1,12 @@
 # Notes
 
 
+### Text to 21 Common Ciphers
+```
+https://v2.cryptii.com/text/select
+```
+ 
+
 ### Crypto Example Challs
 ```
 https://asecuritysite.com/encryption/ctf?mybutton=
