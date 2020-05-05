@@ -1,6 +1,12 @@
 # Notes
 
 
+### Crypto Example Challs
+```
+https://asecuritysite.com/encryption/ctf?mybutton=
+```
+
+
 ### Shift in Python
 
 
