@@ -1,5 +1,10 @@
 # Notes
 
+### Test for LDAP NULL BIND
+```
+ldapsearch -H ldap://host:port -x -s base '' "(objectClass=*)" "*" +
+```
+
 
 ### Extract VBA Script from document
 ```
