@@ -1,5 +1,11 @@
 # Notes
 
+
+### CTF Docs
+```
+https://github.com/welchbj/ctf/tree/master/docs
+```
+
 ### Test for LDAP NULL BIND
 ```
 ldapsearch -H ldap://host:port -x -s base '' "(objectClass=*)" "*" +
