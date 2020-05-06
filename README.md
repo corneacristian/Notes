@@ -1,5 +1,11 @@
 # Notes
 
+
+### Extract VBA Script from document
+```
+https://www.onlinehashcrack.com/tools-online-extract-vba-from-office-word-excel.php
+```
+
 ### Decode Rubber Ducky USB .bin payloads
 ```
 https://ducktoolkit.com/decode#
