@@ -1,5 +1,9 @@
 # Notes
 
+
+### HackTheBox SSH into User without password
+By generating ssh key pair: ``ssh-keygen -t rsa`` and save it in /tmp/id_rsa
+
 ### Really Good Privilege Escalation Scripts
 ``https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite``
 
