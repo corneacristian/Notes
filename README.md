@@ -2,7 +2,9 @@
 
 
 ### HackTheBox SSH into User without password
-By generating ssh key pair: ``ssh-keygen -t rsa`` and save it in /tmp/id_rsa
+1. From the attacker machine generate RSA keypair: ``ssh-keygen -t rsa``
+2. Copy the public key (id_rsa.pub) into the ``.ssh/authorized_keys`` file of the victim
+3. SSH with the -i argument (id_rsa)
 
 ### Really Good Privilege Escalation Scripts
 ``https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite``
