@@ -1,5 +1,9 @@
 # Notes
 
+### Really Good Privilege Escalation Scripts
+``https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite``
+
+
 ### XMPP Authentication Crack
 ```python
 import base64
