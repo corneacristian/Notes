@@ -1,5 +1,9 @@
 # Notes
 
+
+### Adminer Database Management Tool Exploit Bypass Login
+https://www.foregenix.com/blog/serious-vulnerability-discovered-in-adminer-tool
+
 ### Alternate data streams of empty or incomplete file on SMB
 ``allinfo *file*``
 
