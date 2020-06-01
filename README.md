@@ -1,5 +1,9 @@
 # Notes
 
+### SMB Recursively List Files
+``recurse on``
+``ls``
+
 ### Telnet > Netcat
 When connecting to a service, where possible, choose TELNET over Netcat 
 
