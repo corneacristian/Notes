@@ -1,5 +1,8 @@
 # Notes
 
+### Telnet > Netcat
+When connecting to a service, where possible, choose TELNET over Netcat 
+
 ### /etc/update-motd.d Privilege Escalation
 https://blog.haao.sh/writeups/fowsniff-writeup/
 
