@@ -1,5 +1,8 @@
 # Notes
 
+### Alternate data streams of empty or incomplete file on SMB
+``allinfo *file*``
+
 ### SMB Recursively List Files
 ``recurse on``
 <br>
