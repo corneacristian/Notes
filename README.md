@@ -1,5 +1,10 @@
 # Notes
 
+### TTY Shell that works almost every time on Linux
+```
+/usr/bin/script -qc /bin/bash /dev/null
+```
+
 ### Kerberos check for valid usernames or bruteforce user/pass with kerbrute
 ```
 kerbrute
