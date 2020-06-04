@@ -1,5 +1,11 @@
 # Notes
 
+### Kerberos check for valid usernames or bruteforce user/pass with kerbrute
+```
+kerbrute
+```
+https://github.com/TarlogicSecurity/kerbrute
+
 ### Crawls web pages for keywords
 ```
 cewl
