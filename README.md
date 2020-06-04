@@ -1,5 +1,9 @@
 # Notes
 
+### Crawls web pages for keywords
+```
+cewl
+```
 ### TeamViewer Privilege Escalation -> CVE-2019-189888
 ```
 meterpreter > run post/windows/gather/credentials/teamviewer_passwords
