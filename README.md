@@ -1,5 +1,10 @@
 # Notes
 
+### mysql command line alternative
+```
+mysqldump
+```
+
 ### TTY Shell that works almost every time on Linux
 ```
 /usr/bin/script -qc /bin/bash /dev/null
