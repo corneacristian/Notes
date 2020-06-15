@@ -1,5 +1,8 @@
 # Notes
 
+### Decode LDAP Passwords
+https://dotnetfiddle.net/2RDoWz
+
 ### mysql command line alternative
 ```
 mysqldump
