@@ -1,5 +1,9 @@
 # Notes
 
+
+### PowerShell to retrieve Active Directory objects (including deleted)
+```Get-ADObject```
+
 ### Decode LDAP Passwords
 https://dotnetfiddle.net/2RDoWz
 
