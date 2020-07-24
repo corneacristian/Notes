@@ -1,5 +1,7 @@
 # Notes
 
+### Scan Security Headers
+https://securityheaders.com/
 
 ### PowerShell to retrieve Active Directory objects (including deleted)
 ```Get-ADObject```
