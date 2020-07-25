@@ -1,5 +1,8 @@
 # Notes
 
+### Fingerprinting Client-Side Victim
+https://github.com/fingerprintjs/fingerprintjs2
+
 ### Scan Security Headers
 https://securityheaders.com/
 
