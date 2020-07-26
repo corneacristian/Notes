@@ -1,5 +1,18 @@
 # Notes
 
+### Windows check permissions over a file/executable with 'icacls'
+```
+icacls "C\full_path\file.exe"
+```
+Permissions: 
+F - full access 
+M - modify access
+RX - read & execute access
+R - read access
+W - write-only access
+
+
+
 ### Powershell Running Services
 ```
 Get-WmiObject win32_service | Select-Object Name, State, PathName | Where-Object {$_.State -like 'Running'}
