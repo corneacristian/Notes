@@ -1,5 +1,9 @@
 # Notes
 
+### Powershell Running Services
+```
+Get-WmiObject win32_service | Select-Object Name, State, PathName | Where-Object {$_.State -like 'Running'}
+```
 ### Client-Side .hta (HTML-based Internet Explorer only) Code Execution
 ```html
 <html>
