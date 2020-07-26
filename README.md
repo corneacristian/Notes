@@ -1,8 +1,9 @@
 # Notes
 
-### Active Directory Users Enumeration
+### Active Directory Users & Groups Enumeration
 ```
 net user /domain
+net group /domain
 ```
 
 ### Tunelling on Windows
