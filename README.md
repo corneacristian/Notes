@@ -1,5 +1,11 @@
 # Notes
 
+
+### Windows Service Start Mode
+```
+wmic service where caption="SERVICE" get startmode
+```
+
 ### Windows check permissions over a file/executable with 'icacls'
 ```
 icacls "C\full_path\file.exe"
