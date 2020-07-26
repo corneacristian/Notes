@@ -1,5 +1,10 @@
 # Notes
 
+### Active Directory Users Enumeration
+```
+net user /domain
+```
+
 ### Tunelling on Windows
 ```
 Using plink.exe within PuTTY project folder
