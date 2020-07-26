@@ -1,5 +1,9 @@
 # Notes
 
+### Tunelling on Windows
+```
+Using plink.exe within PuTTY project folder
+```
 
 ### Windows Architecture and Version
 ```
