@@ -1,6 +1,12 @@
 # Notes
 
 
+### Windows Architecture and Version
+```
+systeminfo | findstr /B /C:"OS Name" /C:"OS Version" /C:"System Type"
+```
+
+
 ### Windows Service Start Mode
 ```
 wmic service where caption="SERVICE" get startmode
