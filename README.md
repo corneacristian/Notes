@@ -1,5 +1,10 @@
 # Notes
 
+### Memcached Pentest & Enumeration
+https://www.hackingarticles.in/penetration-testing-on-memcached-server/
+
+
+
 ### Tunneling Post-Exploitation (PortForwarding) through Chisel
 https://github.com/jpillora/chisel
 
