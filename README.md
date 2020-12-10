@@ -1,5 +1,8 @@
 # Notes
 
+### Privilege Escalation through SeImpersonatePrivilege permission (JuicyPotato)
+https://github.com/ohpe/juicy-potato/releases
+
 ### Memcached Pentest & Enumeration
 https://www.hackingarticles.in/penetration-testing-on-memcached-server/
 
