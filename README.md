@@ -1,4 +1,12 @@
 # Notes
+
+### Bypass robots.txt "You are not a search engine. Permission denied."
+```
+Set User-Agent to "User-Agent: Googlebot/2.1 (+http://www.googlebot.com/bot.html)"
+```
+
+
+
 ### ShellShock PHP < 5.6.2
 
 ```
