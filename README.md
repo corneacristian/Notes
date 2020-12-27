@@ -1,6 +1,12 @@
 # Notes
 
 
+### Post-Exploitation Enumerate all users of Domain
+```
+net user /Domain
+```
+
+
 ### Windows XP SP0/SP1 Privilege Escalation:
 ```
 https://sohvaxus.github.io/content/winxp-sp1-privesc.html
