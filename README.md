@@ -1,5 +1,10 @@
 # Notes
 
+### PowerShell one-liners (incl. file transfers)
+```
+https://www.puckiestyle.nl/
+```
+
 
 ### Much Better PowerShell Reverse Shell One-Liner
 ```
