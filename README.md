@@ -1,5 +1,8 @@
 # Notes
 
+### From MSSQL Injection to RCE
+https://www.tarlogic.com/en/blog/red-team-tales-0x01/
+
 ### Windows Kernel Vulnerabilities Finder - Sherlock (PowerShell)
 ```
 https://raw.githubusercontent.com/rasta-mouse/Sherlock/master/Sherlock.ps1
