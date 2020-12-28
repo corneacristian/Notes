@@ -1,5 +1,10 @@
 # Notes
 
+### Windows Kernel Vulnerabilities Finder - Sherlock (PowerShell)
+```
+https://raw.githubusercontent.com/rasta-mouse/Sherlock/master/Sherlock.ps1
+```
+
 ### PowerShell one-liners (incl. file transfers)
 ```
 https://www.puckiestyle.nl/
