@@ -1,5 +1,10 @@
 # Notes
 
+### Compile on Linux for Windows x86
+```
+x86_64-w64-mingw32-gcc exploit.c -o exploit.exe -lws2_32
+```
+
 ### From MSSQL Injection to RCE
 https://www.tarlogic.com/en/blog/red-team-tales-0x01/
 
