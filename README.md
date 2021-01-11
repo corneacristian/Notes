@@ -1,5 +1,8 @@
 # Notes
 
+### DirtyCOW Exploit (Linux Kernel version from 2.6.22 to 3.9)
+https://github.com/FireFart/dirtycow/blob/master/dirty.c
+
 ### Oracle Enumeration TNS Listener (port 1521)
 https://github.com/quentinhardy/odat
 
