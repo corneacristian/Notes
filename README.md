@@ -1,5 +1,16 @@
 # Notes
 
+### Hidden Windows Text Stream 
+Find:
+```
+dir /R
+```
+Read:
+```
+more < hm.txt:root.txt:$DATA
+```
+
+
 ### DirtyCOW Exploit (Linux Kernel version from 2.6.22 to 3.9)
 https://github.com/FireFart/dirtycow/blob/master/dirty.c
 
