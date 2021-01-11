@@ -1,5 +1,11 @@
 # Notes
 
+### TMUX Hijacking
+```
+tmux -S *session path* 
+Example: tmux -S /.devs/dev_sess
+```
+
 ### Hidden Windows Text Stream 
 Find:
 ```
