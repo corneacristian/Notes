@@ -1,5 +1,12 @@
 # Notes
 
+### x86 Msfvenom Encoders (good ones!)
+```
+x86/shikata_ga_nai
+x86/fnstenv_mov
+
+```
+
 ### TMUX Hijacking
 ```
 tmux -S *session path* 
