@@ -1,5 +1,10 @@
 # Notes
 
+### Localhost (especially for SSRF) bypass blacklist
+```
+change from localhost/127.0.0.1 to 127.1
+```
+
 ### WAF Bypass
 ```
 <img src=x onerror="window['al'+'ert'+'']('WAF Bypassed')"> </img>
