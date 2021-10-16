@@ -1,5 +1,12 @@
 # Notes
 
+### Host Header Injection to Manipulate Forgot Password
+```
+Works in case when the password reset functionality delivers reset password tokens to the email inbox of your target account
+Create Burp collaborator client/Request Bin client/Email client
+Change the host header to that domain
+```
+
 ### Localhost (especially for SSRF) bypass blacklist
 ```
 change from localhost/127.0.0.1 to 127.1
